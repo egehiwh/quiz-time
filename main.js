@@ -53,7 +53,7 @@ function getQuestions() {
 
         // Start CountDown
         clearInterval(countdownInterval);
-        countdown(3, qCount);
+        countdown(10, qCount);
 
         // Show Results
         showResults(qCount);
